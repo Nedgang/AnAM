@@ -3,6 +3,9 @@ all:
 	./analysis.py
 
 install:
+	mkdir data/
+	mkdir database/
+	mkdir results/
 	pip3 install -r requirements.txt
 	wget http://spades.bioinf.spbau.ru/release3.7.1/SPAdes-3.7.1-Linux.tar.gz
 	# SPAdes installation
